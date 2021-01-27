@@ -141,6 +141,9 @@ img{
 .mails li{
 	display: block;
 }
+.mails li a{
+	color: #222;
+}
 @media screen and (max-width:700px){
 	#links{
 		display:none;
@@ -172,5 +175,8 @@ img{
 	}
 	.box{
 		width:100%;
+	}
+	.mails li {
+		width: 300px;
 	}
 }
